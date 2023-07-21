@@ -1,7 +1,7 @@
 gsap.registerPlugin(ScrollTrigger);
 
 gsap.to(".page-gallery--2, .page-gallery--4", {
-  y: 1570,
+  y: 1415,
   duration: 1,
   scrollTrigger: {
     trigger: ".page-gallery--3",
@@ -14,4 +14,3 @@ gsap.to(".page-gallery--2, .page-gallery--4", {
     // markers: true,
   },
 });
-// gsap.to(".page-gallery--2", {

@@ -11,6 +11,8 @@
     @media (max-width:400px){
         background-color: yellow;
         gap: 1rem;
+        margin-top: 40%;
+        margin-bottom: 40%;
     }
 
     &-gallery--1  *, &-gallery--2  *,&-gallery--3  *,&-gallery--4  *{
@@ -30,6 +32,6 @@
     }
 
  &-gallery--2 ,&-gallery--4{
-    transform: translateY(-300rem);
+    transform: translateY(-135rem);
     }
 }

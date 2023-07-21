@@ -30,6 +30,8 @@ body {
   .page {
     background-color: yellow;
     gap: 1rem;
+    margin-top: 40%;
+    margin-bottom: 40%;
   }
 }
 .page-gallery--1 *, .page-gallery--2 *, .page-gallery--3 *, .page-gallery--4 * {
@@ -48,5 +50,5 @@ body {
   }
 }
 .page-gallery--2, .page-gallery--4 {
-  transform: translateY(-300rem);
+  transform: translateY(-135rem);
 }/*# sourceMappingURL=main.css.map */
