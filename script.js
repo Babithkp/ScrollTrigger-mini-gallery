@@ -1,7 +1,7 @@
 gsap.registerPlugin(ScrollTrigger);
 
 gsap.to(".page-gallery--2, .page-gallery--4", {
-  y: 1415,
+  y: 2260,
   duration: 1,
   scrollTrigger: {
     trigger: ".page-gallery--3",
