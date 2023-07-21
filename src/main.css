@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: #eee;
+}
+
+.page {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+  margin-top: 15%;
+  margin-bottom: 15%;
+  background-color: wheat;
+  overflow: hidden;
+}
+@media (max-width: 400px) {
+  .page {
+    background-color: yellow;
+    gap: 1rem;
+  }
+}
+.page-gallery--1 *, .page-gallery--2 *, .page-gallery--3 *, .page-gallery--4 * {
+  height: 20rem;
+  width: 20rem;
+  background-color: yellowgreen;
+}
+.page-gallery--1 *:not(:last-child), .page-gallery--2 *:not(:last-child), .page-gallery--3 *:not(:last-child), .page-gallery--4 *:not(:last-child) {
+  margin-bottom: 10rem;
+}
+@media (max-width: 400px) {
+  .page-gallery--1 *, .page-gallery--2 *, .page-gallery--3 *, .page-gallery--4 * {
+    width: 50%;
+    height: 8rem;
+    width: 8rem;
+  }
+}
+.page-gallery--2, .page-gallery--4 {
+  transform: translateY(-180rem);
+}/*# sourceMappingURL=main.css.map */

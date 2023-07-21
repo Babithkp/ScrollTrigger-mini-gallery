@@ -1,0 +1,36 @@
+.page{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    background-color: wheat;
+    overflow: hidden;
+    
+    @media (max-width:400px){
+        background-color: yellow;
+        gap: 1rem;
+        
+    }
+
+    &-gallery--1  *, &-gallery--2  *,&-gallery--3  *,&-gallery--4  *{
+    height: 20rem;
+    width: 20rem;
+    background-color: yellowgreen;
+    &:not(:last-child){
+        margin-bottom: 10rem;
+    }
+
+    @media (max-width:400px){
+        width: 50%;
+        height: 8rem;
+        width: 8rem;
+
+    }
+    }
+
+ &-gallery--2 ,&-gallery--4{
+    transform: translateY(-180rem);
+    }
+}

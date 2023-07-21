@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+
+    // @media (max-width: 80rem){
+    //     background-color: greenyellow;
+    // }
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #eee;
+}
